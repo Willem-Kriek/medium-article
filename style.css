@@ -1,0 +1,40 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  background-color: brown;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: auto;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  position: center;
+  height: 20rem;
+  width: 30rem;
+}
+
+#how-its-made {
+  text-align: center;
+  font-size: 2rem;
+
+}
